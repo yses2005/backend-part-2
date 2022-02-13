@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2017",
+            "es2015.promise"
+        ],
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": "src",
+        "paths": {
+            "@models": ["models/"],
+            "@decorators": ["decorators/"],
+            "@handlers": ["handlers/"]
+        },
+        "skipLibCheck": true
+    }
+}
